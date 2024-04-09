@@ -9,7 +9,6 @@ socket_address = ('localhost', 9999)
 server_socket.bind(socket_address)
 
 def sender_socket(frame):
-
     encoded, buffer = cv2.imencode('.jpg', frame, [cv2.IMWRITE_JPEG_QUALITY, 80])
     message = base64.b64encode(buffer)
     server_socket.sendto(message, socket_address)
