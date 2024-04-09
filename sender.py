@@ -10,13 +10,8 @@ def sender_socket(frame):
     socket_address = ('localhost', 9999)
     server_socket.bind(socket_address)
 
-    try:
-        while True:
-            encoded, buffer = cv2.imencode('.jpg', frame, [cv2.IMWRITE_JPEG_QUALITY, 80])
-            message = base64.b64encode(buffer)
-            server_socket.sendto(message, socket_address)
-
-    finally:
-        server_socket.close()
+    encoded, buffer = cv2.imencode('.jpg', frame, [cv2.IMWRITE_JPEG_QUALITY, 80])
+    message = base64.b64encode(buffer)
+    server_socket.sendto(message, socket_address)
 
 

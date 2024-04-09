@@ -4,6 +4,7 @@ import time
 import cv2
 import numpy as np
 import base64
+import sender
 from ultralytics import YOLO
 
 # Function to receive and decode image
@@ -63,6 +64,7 @@ def predict():
                                    'class_label': class_label})
 
             JsonFunction.writeJson(outfile, bboxes)
+            sender.sender_socket(footage)
 
             cv2.imshow('Received Image', footage)
             if cv2.waitKey(1) & 0xFF == ord('q'):

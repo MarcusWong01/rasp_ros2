@@ -1,4 +1,5 @@
 import cv2
+import sender
 import JsonFunction
 from ultralytics import YOLO
 
@@ -33,7 +34,7 @@ def capture():
                     height = y2 - y1
                     bboxes.append({'x1': x1, 'y1': y1, 'width': width, 'height': height, 'confidence': confidence,
                                    'class_label': class_label})
-
+            sender.sender_socket(frame)
             JsonFunction.writeJson(output_file, bboxes)
             cv2.imshow('Received Image', frame)
             if cv2.waitKey(1) & 0xFF == ord('q'):
