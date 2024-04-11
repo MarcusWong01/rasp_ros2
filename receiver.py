@@ -5,7 +5,7 @@ import cv2
 import numpy as np
 import base64
 import sender
-from ultralytics import YOLO
+import Yolo
 
 # Function to receive and decode image
 def receive_image(receiver_socket):
@@ -30,7 +30,7 @@ def predict():
     server_socket.setsockopt(socket.SOL_SOCKET, socket.SO_RCVBUF, 65536)
     server_socket.bind(('0.0.0.0', 1935))
 
-    model = YOLO('models/best.pt')
+    model = Yolo.load_mode()
     outfile = JsonFunction.load_json()
 
     try:
@@ -50,28 +50,17 @@ def predict():
                     pass
             cnt += 1
 
-            bboxes = []
-            for result in results:
-                boxes = result.boxes
-                xyxys = boxes.xyxy  # Access bounding box coordinates in [x1, y1, x2, y2] format
-                confidences = boxes.conf.tolist()  # Convert confidence scores to Python list
-                class_labels = boxes.cls.tolist()  # Convert class labels to Python list
-                for xyxy, confidence, class_label in zip(xyxys, confidences, class_labels):
-                    x1, y1, x2, y2 = xyxy.tolist()
-                    width = x2 - x1
-                    height = y2 - y1
-                    bboxes.append({'x1': x1, 'y1': y1, 'width': width, 'height': height, 'confidence': confidence,
-                                   'class_label': class_label})
-
-            JsonFunction.writeJson(outfile, bboxes)
-            sender.sender_socket(footage)
+            results = Yolo.predict(model, footage)
+            bboxes = Yolo.getInfo(results, footage)
+            sender.sender_socket(bboxes)
 
             cv2.imshow('Received Image', footage)
             if cv2.waitKey(1) & 0xFF == ord('q'):
                 break
             if cv2.getWindowProperty('Received Image', cv2.WND_PROP_VISIBLE) < 1:
                 break
-            return footage
+
+        return footage
     finally:
         # Close the connection
         server_socket.close()

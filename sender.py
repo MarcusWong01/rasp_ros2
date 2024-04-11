@@ -13,4 +13,8 @@ def sender_socket(frame):
     message = base64.b64encode(buffer)
     server_socket.sendto(message, socket_address)
 
+def jsonSender_socket(bboxes):
+    message = base64.b64encode(bboxes)
+    server_socket.sendto(message, socket_address)
+
 
