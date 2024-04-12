@@ -4,6 +4,7 @@ import time
 import cv2
 import numpy as np
 import base64
+import sender
 from ultralytics import YOLO
 
 # Function to receive and decode image
@@ -69,7 +70,7 @@ def predict():
                 break
             if cv2.getWindowProperty('Received Image', cv2.WND_PROP_VISIBLE) < 1:
                 break
-            return footage
+        sender.sender_socket(footage)
     finally:
         # Close the connection
         server_socket.close()
