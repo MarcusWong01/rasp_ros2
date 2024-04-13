@@ -1,13 +1,10 @@
 import cv2
 import sender
-import JsonFunction
 import Yolo
 
 def capture():
     # Initialize YOLO model
     model = Yolo.load_mode()
-
-    outfile = JsonFunction.load_json()
 
     # Open the video capture device (webcam)
     cap = cv2.VideoCapture(0)  # Use 0 for default webcam, you can change it if needed
@@ -18,18 +15,10 @@ def capture():
                 break
 
             # Perform object detection using YOLO
-            results = Yolo.predict(model,frame)
-            bboxes = Yolo.getInfo(results, frame)
+            results = Yolo.detect(model, frame)
+            bboxes = Yolo.getInfo(results)
+            sender.jsonSender_socket(bboxes)
 
-            JsonFunction.writeJson(outfile, bboxes)
-
-            sender.sender_socket(bboxes)
-
-            cv2.imshow('Received Image', frame)
-            if cv2.waitKey(1) & 0xFF == ord('q'):
-                break
-            if cv2.getWindowProperty('Received Image', cv2.WND_PROP_VISIBLE) < 1:
-                break
         return frame
     finally:
         cap.release()

@@ -8,7 +8,7 @@ def main():
         if mode == 1:
             webCam.capture()
         elif mode == 2:
-            receiver.predict()
+            receiver.receive_image_process()
         else:
             print("Invalid input")
 
