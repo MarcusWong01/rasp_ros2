@@ -1,7 +1,5 @@
-import sender
 import receiver
 import webCam
-import threading
 
 def main():
     while True:
