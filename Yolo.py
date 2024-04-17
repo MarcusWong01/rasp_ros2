@@ -1,3 +1,5 @@
+import sender
+import JsonFunction
 from ultralytics import YOLO
 
 def load_mode():
@@ -8,6 +10,7 @@ def detect(model, frame):
     return model.predict(frame)
 
 def getInfo(results):
+    outfile = JsonFunction.load_json()
     bboxes = []
     for result in results:
         boxes = result.boxes
@@ -24,5 +27,5 @@ def getInfo(results):
                            'height': height,
                            'confidence': confidence,
                            'class_label': class_label})
-
-    return bboxes
+            sender.jsonSender_HTTPPost(bboxes)
+            JsonFunction.writeJson(outfile, bboxes)

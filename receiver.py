@@ -35,14 +35,7 @@ def receive_image_process():
             # Receive and display the image
             footage = receive_image(server_socket)
             results = Yolo.detect(model, footage)
-            bboxes = Yolo.getInfo(results)
-
-            cv2.imshow('Received Image', footage)
-            if cv2.waitKey(1) & 0xFF == ord('q'):
-                break
-            if cv2.getWindowProperty('Received Image', cv2.WND_PROP_VISIBLE) < 1:
-                break
-        sender.jsonSender_socket(bboxes)
+            Yolo.getInfo(results)
     finally:
         # Close the connection
         server_socket.close()

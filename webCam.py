@@ -1,5 +1,4 @@
 import cv2
-import sender
 import Yolo
 
 def capture():
@@ -16,9 +15,6 @@ def capture():
 
             # Perform object detection using YOLO
             results = Yolo.detect(model, frame)
-            bboxes = Yolo.getInfo(results)
-            sender.jsonSender_socket(bboxes)
-
-        return frame
+            Yolo.getInfo(results)
     finally:
         cap.release()
