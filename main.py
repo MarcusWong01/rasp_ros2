@@ -3,8 +3,9 @@ import webCam
 
 def main():
     while True:
-        print("Welcome ROINAS Server, please select mode below")
-        mode = int(input("1. Webcam | 2. PiCamera: "))
+        #print("Welcome ROINAS Server, please select mode below")
+        mode = 2
+        #mode = int(input("1. Webcam | 2. PiCamera: "))
         if mode == 1:
             webCam.capture()
         elif mode == 2:

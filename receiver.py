@@ -26,7 +26,7 @@ def receive_image_process():
     # Connect to the server
     server_socket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     server_socket.setsockopt(socket.SOL_SOCKET, socket.SO_RCVBUF, 65536)
-    server_socket.bind(('0.0.0.0', 1935))
+    server_socket.bind(('0.0.0.0', 1936))
 
     model = Yolo.load_mode()
 
@@ -35,7 +35,7 @@ def receive_image_process():
             # Receive and display the image
             footage = receive_image(server_socket)
             results = Yolo.detect(model, footage)
-            Yolo.getInfo(results)
+            Yolo.getInfo(results, footage)
     finally:
         # Close the connection
         server_socket.close()
