@@ -25,7 +25,7 @@ def getInfo(results, image):
             x1, y1, x2, y2 = xyxy.tolist()
             width = x2 - x1
             height = y2 - y1
-            if confidence >= 0.5:
+            if confidence >= 0.2:
                 bboxes.append({'image': base64_image,
                                'x1': x1,
                                'y1': y1,
