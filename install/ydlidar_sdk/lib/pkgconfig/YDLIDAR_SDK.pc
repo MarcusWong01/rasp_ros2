@@ -1,0 +1,11 @@
+prefix=/home/wong/Documents/rasp_ros2/install/ydlidar_sdk
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: YDLIDAR_SDK
+Description: 
+Version: 1.0.6
+Cflags:   -I/home/wong/Documents/rasp_ros2/install/ydlidar_sdk/include/src -I/home/wong/Documents/rasp_ros2/install/ydlidar_sdk/include
+Libs: -L${libdir}  -lpthread -lrt -lydlidar_sdk
+

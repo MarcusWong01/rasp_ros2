@@ -1,0 +1,4 @@
+Invoking command in '/home/wong/Documents/rasp_ros2/build/ydlidar_ros2_driver': /usr/bin/cmake --build /home/wong/Documents/rasp_ros2/build/ydlidar_ros2_driver -- -j4 -l4
+Invoked command in '/home/wong/Documents/rasp_ros2/build/ydlidar_ros2_driver' returned '0': /usr/bin/cmake --build /home/wong/Documents/rasp_ros2/build/ydlidar_ros2_driver -- -j4 -l4
+Invoking command in '/home/wong/Documents/rasp_ros2/build/ydlidar_ros2_driver': /usr/bin/cmake --install /home/wong/Documents/rasp_ros2/build/ydlidar_ros2_driver
+Invoked command in '/home/wong/Documents/rasp_ros2/build/ydlidar_ros2_driver' returned '0': /usr/bin/cmake --install /home/wong/Documents/rasp_ros2/build/ydlidar_ros2_driver

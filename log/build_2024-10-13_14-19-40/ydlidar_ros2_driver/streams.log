@@ -1,0 +1,33 @@
+[0.054s] Invoking command in '/home/wong/Documents/rasp_ros2/build/ydlidar_ros2_driver': /usr/bin/cmake /home/wong/Documents/rasp_ros2/ydlidar_ros2_driver-master -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/wong/Documents/rasp_ros2/install/ydlidar_ros2_driver
+[0.350s] -- The C compiler identification is GNU 11.4.0
+[0.628s] -- The CXX compiler identification is GNU 11.4.0
+[0.663s] -- Detecting C compiler ABI info
+[0.983s] -- Detecting C compiler ABI info - done
+[1.010s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.012s] -- Detecting C compile features
+[1.016s] -- Detecting C compile features - done
+[1.026s] -- Detecting CXX compiler ABI info
+[1.391s] -- Detecting CXX compiler ABI info - done
+[1.421s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.422s] -- Detecting CXX compile features
+[1.424s] -- Detecting CXX compile features - done
+[1.582s] [31mCMake Error at CMakeLists.txt:15 (find_package):
+[1.582s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[1.583s]   has asked CMake to find a package configuration file provided by
+[1.583s]   "ament_cmake", but CMake did not find one.
+[1.583s] 
+[1.584s]   Could not find a package configuration file provided by "ament_cmake" with
+[1.584s]   any of the following names:
+[1.585s] 
+[1.585s]     ament_cmakeConfig.cmake
+[1.586s]     ament_cmake-config.cmake
+[1.587s] 
+[1.588s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[1.589s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[1.590s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[1.591s]   has been installed.
+[1.591s] 
+[1.591s] [0m
+[1.592s] -- Configuring incomplete, errors occurred!
+[1.592s] See also "/home/wong/Documents/rasp_ros2/build/ydlidar_ros2_driver/CMakeFiles/CMakeOutput.log".
+[1.597s] Invoked command in '/home/wong/Documents/rasp_ros2/build/ydlidar_ros2_driver' returned '1': /usr/bin/cmake /home/wong/Documents/rasp_ros2/ydlidar_ros2_driver-master -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/wong/Documents/rasp_ros2/install/ydlidar_ros2_driver

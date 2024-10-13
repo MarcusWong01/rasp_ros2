@@ -1,0 +1,220 @@
+[0.060s] Invoking command in '/home/wong/Documents/rasp_ros2/build/ydlidar_sdk': /usr/bin/cmake --build /home/wong/Documents/rasp_ros2/build/ydlidar_sdk -- -j4 -l4
+[0.264s] [  4%] [32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/core/base/timer.cpp.o[0m
+[0.269s] [  8%] [32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/core/network/ActiveSocket.cpp.o[0m
+[0.279s] [ 12%] [32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/core/network/PassiveSocket.cpp.o[0m
+[0.283s] [ 16%] [32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/core/common/ydlidar_def.cpp.o[0m
+[0.584s] [ 20%] [32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/core/network/SimpleSocket.cpp.o[0m
+[1.824s] [ 24%] [32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/core/serial/serial.cpp.o[0m
+[1.952s] [ 28%] [32mBuilding C object CMakeFiles/ydlidar_sdk.dir/core/serial/impl/unix/lock.c.o[0m
+[2.290s] [ 32%] [32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/core/serial/impl/unix/list_ports_linux.cpp.o[0m
+[2.574s] [ 36%] [32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/core/serial/impl/unix/unix_serial.cpp.o[0m
+[2.636s] [ 40%] [32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/src/CYdLidar.cpp.o[0m
+[5.108s] [ 44%] [32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/src/ETLidarDriver.cpp.o[0m
+[5.477s] [ 48%] [32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/src/ydlidar_driver.cpp.o[0m
+[5.598s] [ 52%] [32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/src/ydlidar_sdk.cpp.o[0m
+[5.939s] In file included from [01m[K/home/wong/Documents/rasp_ros2/YDLidar-SDK-master/src/ydlidar_driver.h:49[m[K,
+[5.941s]                  from [01m[K/home/wong/Documents/rasp_ros2/YDLidar-SDK-master/src/CYdLidar.cpp:30[m[K:
+[5.945s] [01m[K/home/wong/Documents/rasp_ros2/YDLidar-SDK-master/./core/common/ydlidar_help.h:[m[K In function ‘[01m[Kbool ydlidar::core::common::ParseLaserDebugInfo(const LaserDebug&, device_info&)[m[K’:
+[5.948s] [01m[K/home/wong/Documents/rasp_ros2/YDLidar-SDK-master/./core/common/ydlidar_help.h:898:67:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksprintf[m[K’ writing a terminating nul past the end of the destination [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-overflow=-Wformat-overflow=]8;;[m[K]
+[5.951s]   898 |       sprintf(reinterpret_cast<char *>(value.serialnum + 8), "%08d[01;35m[K"[m[K, Number);
+[5.954s]       |                                                                   [01;35m[K^[m[K
+[5.963s] [01m[K/home/wong/Documents/rasp_ros2/YDLidar-SDK-master/./core/common/ydlidar_help.h:898:14:[m[K [01;36m[Knote: [m[K‘[01m[Ksprintf[m[K’ output 9 bytes into a destination of size 8
+[5.973s]   898 |       [01;36m[Ksprintf(reinterpret_cast<char *>(value.serialnum + 8), "%08d", Number)[m[K;
+[5.976s]       |       [01;36m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.891s] [ 56%] [32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/src/filters/NoiseFilter.cpp.o[0m
+[9.399s] [01m[K/home/wong/Documents/rasp_ros2/YDLidar-SDK-master/src/filters/NoiseFilter.cpp:[m[K In member function ‘[01m[Kvoid NoiseFilter::filter_tail2(const LaserScan&, int, int, LaserScan&)[m[K’:
+[9.402s] [01m[K/home/wong/Documents/rasp_ros2/YDLidar-SDK-master/src/filters/NoiseFilter.cpp:579:26:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%u[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[9.405s]   579 |     printf("Noise count [01;35m[K%u[m[K\n", [32m[KnoiseCount[m[K);
+[9.408s]       |                         [01;35m[K~^[m[K     [32m[K~~~~~~~~~~[m[K
+[9.411s]       |                          [01;35m[K|[m[K     [32m[K|[m[K
+[9.414s]       |                          [01;35m[K|[m[K     [32m[Ksize_t {aka long unsigned int}[m[K
+[9.417s]       |                          [01;35m[Kunsigned int[m[K
+[9.422s]       |                         [32m[K%lu[m[K
+[10.472s] [ 60%] [32m[1mLinking CXX static library libydlidar_sdk.a[0m
+[10.810s] [ 60%] Built target ydlidar_sdk
+[10.916s] [ 64%] [32mBuilding CXX object samples/CMakeFiles/ydlidar_test.dir/ydlidar_test.cpp.o[0m
+[10.918s] [ 68%] [32mBuilding CXX object samples/CMakeFiles/tof_test.dir/tof_test.cpp.o[0m
+[10.919s] [ 72%] [32mBuilding C object samples/CMakeFiles/lidar_c_api_test.dir/lidar_c_api_test.c.o[0m
+[10.927s] [ 76%] [32mBuilding CXX object samples/CMakeFiles/etlidar_test.dir/etlidar_test.cpp.o[0m
+[10.993s] [01m[Kcc1:[m[K [01;35m[Kwarning: [m[Kcommand-line option ‘[01m[K-std=c++11[m[K’ is valid for C++/ObjC++ but not for C
+[11.165s] [01m[K/home/wong/Documents/rasp_ros2/YDLidar-SDK-master/samples/lidar_c_api_test.c:[m[K In function ‘[01m[Kmain[m[K’:
+[11.165s] [01m[K/home/wong/Documents/rasp_ros2/YDLidar-SDK-master/samples/lidar_c_api_test.c:102:47:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%llu[m[K’ expects argument of type ‘[01m[Klong long unsigned int[m[K’, but argument 3 has type ‘[01m[Kuint64_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[11.166s]   102 |             fprintf(stdout, "Scan received[[01;35m[K%llu[m[K]: %u ranges is [%f]Hz\n",
+[11.166s]       |                                            [01;35m[K~~~^[m[K
+[11.167s]       |                                               [01;35m[K|[m[K
+[11.167s]       |                                               [01;35m[Klong long unsigned int[m[K
+[11.168s]       |                                            [32m[K%lu[m[K
+[11.169s]   103 |                     [32m[Kscan.stamp[m[K,
+[11.169s]       |                     [32m[K~~~~~~~~~~[m[K                 
+[11.170s]       |                         [32m[K|[m[K
+[11.170s]       |                         [32m[Kuint64_t {aka long unsigned int}[m[K
+[11.314s] [ 80%] [32m[1mLinking CXX executable ../lidar_c_api_test[0m
+[12.289s] [ 80%] Built target lidar_c_api_test
+[12.415s] [ 84%] [32mBuilding CXX object test/CMakeFiles/lidar_test.dir/lidar_test.cpp.o[0m
+[12.814s] [01m[K/home/wong/Documents/rasp_ros2/YDLidar-SDK-master/samples/tof_test.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[12.822s] [01m[K/home/wong/Documents/rasp_ros2/YDLidar-SDK-master/samples/tof_test.cpp:269:49:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%llu[m[K’ expects argument of type ‘[01m[Klong long unsigned int[m[K’, but argument 3 has type ‘[01m[Kuint64_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[12.823s]   269 |           fprintf(stdout, "Scan received at [[01;35m[K%llu[m[K] %u points is [%f]s\n",
+[12.829s]       |                                              [01;35m[K~~~^[m[K
+[12.833s]       |                                                 [01;35m[K|[m[K
+[12.837s]       |                                                 [01;35m[Klong long unsigned int[m[K
+[12.841s]       |                                              [32m[K%lu[m[K
+[12.844s]   270 |                   [32m[Kscan.stamp / 100000[m[K,
+[12.846s]       |                   [32m[K~~~~~~~~~~~~~~~~~~~[m[K            
+[12.850s]       |                              [32m[K|[m[K
+[12.853s]       |                              [32m[Kuint64_t {aka long unsigned int}[m[K
+[13.220s] [01m[K/home/wong/Documents/rasp_ros2/YDLidar-SDK-master/samples/etlidar_test.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[13.221s] [01m[K/home/wong/Documents/rasp_ros2/YDLidar-SDK-master/samples/etlidar_test.cpp:178:41:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%llu[m[K’ expects argument of type ‘[01m[Klong long unsigned int[m[K’, but argument 3 has type ‘[01m[Kuint64_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[13.222s]   178 |       fprintf(stdout, "Scan received[[01;35m[K%llu[m[K]: %u ranges is [%f]Hz\n",
+[13.222s]       |                                      [01;35m[K~~~^[m[K
+[13.224s]       |                                         [01;35m[K|[m[K
+[13.224s]       |                                         [01;35m[Klong long unsigned int[m[K
+[13.225s]       |                                      [32m[K%lu[m[K
+[13.226s]   179 |               [32m[Kscan.stamp[m[K,
+[13.244s]       |               [32m[K~~~~~~~~~~[m[K                 
+[13.244s]       |                    [32m[K|[m[K
+[13.245s]       |                    [32m[Kuint64_t {aka long unsigned int}[m[K
+[13.246s] [01m[K/home/wong/Documents/rasp_ros2/YDLidar-SDK-master/samples/ydlidar_test.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[13.255s] [01m[K/home/wong/Documents/rasp_ros2/YDLidar-SDK-master/samples/ydlidar_test.cpp:268:40:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%llu[m[K’ expects argument of type ‘[01m[Klong long unsigned int[m[K’, but argument 2 has type ‘[01m[Kuint64_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[13.258s]   268 |           printf("Scan received at [[01;35m[K%llu[m[K] %u points is [%f]Hz\n",
+[13.259s]       |                                     [01;35m[K~~~^[m[K
+[13.260s]       |                                        [01;35m[K|[m[K
+[13.262s]       |                                        [01;35m[Klong long unsigned int[m[K
+[13.269s]       |                                     [32m[K%lu[m[K
+[13.272s]   269 |                  [32m[Kscan.stamp / 1000000[m[K,
+[13.276s]       |                  [32m[K~~~~~~~~~~~~~~~~~~~~[m[K   
+[13.280s]       |                             [32m[K|[m[K
+[13.287s]       |                             [32m[Kuint64_t {aka long unsigned int}[m[K
+[13.647s] [ 88%] [32m[1mLinking CXX executable ../etlidar_test[0m
+[14.235s] [ 92%] [32m[1mLinking CXX executable ../ydlidar_test[0m
+[14.248s] [ 96%] [32m[1mLinking CXX executable ../tof_test[0m
+[14.835s] [ 96%] Built target etlidar_test
+[14.867s] [ 96%] Built target ydlidar_test
+[15.143s] [ 96%] Built target tof_test
+[17.807s] [100%] [32m[1mLinking CXX executable lidar_test[0m
+[18.512s] [100%] Built target lidar_test
+[18.569s] Invoked command in '/home/wong/Documents/rasp_ros2/build/ydlidar_sdk' returned '0': /usr/bin/cmake --build /home/wong/Documents/rasp_ros2/build/ydlidar_sdk -- -j4 -l4
+[19.052s] Invoking command in '/home/wong/Documents/rasp_ros2/build/ydlidar_sdk': /usr/bin/cmake --install /home/wong/Documents/rasp_ros2/build/ydlidar_sdk
+[19.099s] -- Install configuration: ""
+[19.102s] -- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/include/core/base/datatype.h
+[19.103s] -- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/include/core/base/locker.h
+[19.105s] -- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/include/core/base/thread.h
+[19.107s] -- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/include/core/base/timer.h
+[19.108s] -- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/include/core/base/typedef.h
+[19.110s] -- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/include/core/base/utils.h
+[19.111s] -- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/include/core/base/v8stdint.h
+[19.113s] -- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/include/core/base/ydlidar.h
+[19.114s] -- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/include/core/common/ChannelDevice.h
+[19.117s] -- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/include/core/common/DriverInterface.h
+[19.119s] -- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/include/core/common/ydlidar_datatype.h
+[19.121s] -- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/include/core/common/ydlidar_def.h
+[19.123s] -- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/include/core/common/ydlidar_help.h
+[19.125s] -- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/include/core/common/ydlidar_protocol.h
+[19.127s] -- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/include/core/math/angles.h
+[19.129s] -- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/include/core/network/ActiveSocket.h
+[19.130s] -- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/include/core/network/PassiveSocket.h
+[19.132s] -- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/include/core/network/SimpleSocket.h
+[19.134s] -- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/include/core/network/StatTimer.h
+[19.135s] -- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/include/core/serial/common.h
+[19.137s] -- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/include/core/serial/serial.h
+[19.140s] -- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/include/core/serial/impl/unix/lock.h
+[19.141s] -- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/include/core/serial/impl/unix/unix.h
+[19.143s] -- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/include/core/serial/impl/unix/unix_serial.h
+[19.145s] -- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/include/src/CYdLidar.h
+[19.147s] -- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/include/src/ETLidarDriver.h
+[19.148s] -- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/include/src/ydlidar_driver.h
+[19.150s] -- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/include/src/ydlidar_sdk.h
+[19.152s] -- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/include/src/filters/FilterInterface.h
+[19.153s] -- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/include/src/filters/NoiseFilter.h
+[19.155s] -- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/include/ydlidar_config.h
+[19.157s] -- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/lib/libydlidar_sdk.a
+[19.171s] -- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/lib/pkgconfig/YDLIDAR_SDK.pc
+[19.173s] -- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/lib/cmake/ydlidar_sdk/ydlidar_sdkConfig.cmake
+[19.174s] -- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/lib/cmake/ydlidar_sdk/ydlidar_sdkTargets.cmake
+[19.176s] -- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/lib/cmake/ydlidar_sdk/ydlidar_sdkConfigVersion.cmake
+[19.178s] -- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/FindYDLIDAR_SDK.cmake
+[19.180s] -- Up-to-date: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK
+[19.181s] -- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/cmake_uninstall.cmake.in
+[19.183s] -- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/FindPackage.cmake.in
+[19.184s] -- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/PackageConfigVersion.cmake.in
+[19.186s] -- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/script_show_final_summary.cmake
+[19.187s] -- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/PackageConfig.cmake.in
+[19.188s] -- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/common
+[19.189s] -- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/common/ydlidar_parse.cmake
+[19.190s] -- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/common/ydlidar_base.cmake
+[19.192s] -- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/install_package.cmake
+[19.193s] -- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/PkgConfig.pc.in
+[19.194s] -- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/LICENSE.txt
+[19.195s] -- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/README.md
+[19.197s] -- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc
+[19.198s] -- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/quickstart
+[19.198s] -- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/quickstart/ydlidar_sdk_software_installation_guide.md
+[19.200s] -- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/quickstart/README.md
+[19.201s] -- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/Dataset.md
+[19.204s] -- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/README.md
+[19.206s] -- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/YDLIDAR_SDK_API_for_Developers.md
+[19.212s] -- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images
+[19.214s] -- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/FlowChart.png
+[19.215s] -- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/sdk_init.png
+[19.216s] -- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/sdk_architecture.png
+[19.217s] -- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/sequence.png
+[19.223s] -- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/frame.png
+[19.224s] -- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/angle_q2.png
+[19.225s] -- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/YDLidar.png
+[19.225s] -- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/communication_mechanism.png
+[19.226s] -- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/EAI.png
+[19.230s] -- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/frame_intensity.png
+[19.232s] -- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/system_workflow.png
+[19.235s] -- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/sdk_scanning.png
+[19.240s] -- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/YDLidar.jpg
+[19.242s] -- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/Diagram.md
+[19.246s] -- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/YDLidar-SDK-Communication-Protocol.pdf
+[19.249s] -- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/Tutorials.md
+[19.252s] -- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/YDLidar-SDK-Communication-Protocol.html
+[19.256s] -- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/YDLidar_SDK_Communication_Protocol.pdf
+[19.259s] -- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/YDLidar-SDK-Communication-Protocol.md
+[19.262s] -- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/tutorials
+[19.265s] -- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/tutorials/examine_the_simple_lidar_tutorial.md
+[19.268s] -- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/tutorials/writing_lidar_tutorial_c++.md
+[19.271s] -- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/tutorials/writing_lidar_tutorial_c.md
+[19.274s] -- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/tutorials/writing_lidar_tutorial_python.md
+[19.279s] -- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/tutorials/writing_lidar_network_adapter_tutorial_c++.md
+[19.283s] -- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/SDK.pdf
+[19.288s] -- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/FAQs
+[19.294s] -- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/FAQs/Hardware_FAQs_cn.md
+[19.297s] -- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/FAQs/Software_FAQs_cn.md
+[19.301s] -- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/FAQs/Hardware_FAQs.md
+[19.305s] -- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/FAQs/README.md
+[19.308s] -- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/FAQs/General_FAQs.md
+[19.311s] -- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/FAQs/Software_FAQs.md
+[19.317s] -- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/FAQs/General_FAQs_cn.md
+[19.323s] -- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto
+[19.326s] -- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/how_to_build_and_debug_using_vscode.md
+[19.330s] -- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/how_to_create_a_pull.md
+[19.333s] -- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/how_to_create_a_udev_rules.md
+[19.336s] -- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/how_to_build_and_install.md
+[19.340s] -- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/README.md
+[19.344s] -- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images
+[19.347s] -- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/vscode
+[19.350s] -- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/vscode/tasks.png
+[19.353s] -- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/vscode/run_tasks.jpg
+[19.356s] -- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/sdk_init.png
+[19.359s] -- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/csharp_build.png
+[19.362s] -- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/ydlidar_lidar_monitor.png
+[19.366s] -- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/sequence.png
+[19.369s] -- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/csharp_project.png
+[19.372s] -- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/csharp_exception.png
+[19.376s] -- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/cpack.png
+[19.381s] -- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/csharp_running.png
+[19.386s] -- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/csharp_library.png
+[19.403s] -- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/ttyUSB1.png
+[19.405s] -- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/ttyUSB0.png
+[19.405s] -- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/sdk_scanning.png
+[19.406s] -- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/how_to_solve_slow_pull_from_cn.md
+[19.407s] -- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/how_to_gerenrate_vs_project_by_cmake.md
+[19.407s] -- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/how_to_create_a_csharp_project.md
+[19.408s] -- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/startup/initenv.sh
+[19.409s] -- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/bin/etlidar_test
+[19.409s] -- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/bin/tof_test
+[19.410s] -- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/bin/ydlidar_test
+[19.432s] -- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/bin/lidar_c_api_test
+[19.450s] Invoked command in '/home/wong/Documents/rasp_ros2/build/ydlidar_sdk' returned '0': /usr/bin/cmake --install /home/wong/Documents/rasp_ros2/build/ydlidar_sdk

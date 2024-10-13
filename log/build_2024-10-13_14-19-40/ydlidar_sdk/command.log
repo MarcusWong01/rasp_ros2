@@ -1,0 +1,1 @@
+Invoking command in '/home/wong/Documents/rasp_ros2/build/ydlidar_sdk': /usr/bin/cmake /home/wong/Documents/rasp_ros2/YDLidar-SDK-master -DCMAKE_INSTALL_PREFIX=/home/wong/Documents/rasp_ros2/install/ydlidar_sdk

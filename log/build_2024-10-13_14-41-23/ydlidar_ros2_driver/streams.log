@@ -1,0 +1,66 @@
+[0.071s] Invoking command in '/home/wong/Documents/rasp_ros2/build/ydlidar_ros2_driver': /usr/bin/cmake --build /home/wong/Documents/rasp_ros2/build/ydlidar_ros2_driver -- -j4 -l4
+[0.244s] [35m[1mConsolidate compiler generated dependencies of target ydlidar_ros2_driver_client[0m
+[0.250s] [35m[1mConsolidate compiler generated dependencies of target ydlidar_ros2_driver_node[0m
+[0.341s] [ 50%] Built target ydlidar_ros2_driver_client
+[0.351s] [ 75%] [32mBuilding CXX object CMakeFiles/ydlidar_ros2_driver_node.dir/src/ydlidar_ros2_driver_node.cpp.o[0m
+[10.936s] [01m[K/home/wong/Documents/rasp_ros2/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:[m[K In lambda function:
+[10.937s] [01m[K/home/wong/Documents/rasp_ros2/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:163:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest_header[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[10.937s]   163 |     [&laser]([01;35m[Kconst std::shared_ptr<rmw_request_id_t> request_header[m[K,
+[10.938s]       |              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[10.939s] [01m[K/home/wong/Documents/rasp_ros2/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:164:56:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreq[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[10.939s]   164 |   [01;35m[Kconst std::shared_ptr<std_srvs::srv::Empty::Request> req[m[K,
+[10.940s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[10.940s] [01m[K/home/wong/Documents/rasp_ros2/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:165:51:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresponse[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[10.941s]   165 |   [01;35m[Kstd::shared_ptr<std_srvs::srv::Empty::Response> response[m[K) -> bool
+[10.942s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[11.013s] [01m[K/home/wong/Documents/rasp_ros2/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:[m[K In lambda function:
+[11.013s] [01m[K/home/wong/Documents/rasp_ros2/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:173:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest_header[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[11.014s]   173 |     [&laser]([01;35m[Kconst std::shared_ptr<rmw_request_id_t> request_header[m[K,
+[11.014s]       |              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[11.014s] [01m[K/home/wong/Documents/rasp_ros2/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:174:56:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreq[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[11.015s]   174 |   [01;35m[Kconst std::shared_ptr<std_srvs::srv::Empty::Request> req[m[K,
+[11.015s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[11.016s] [01m[K/home/wong/Documents/rasp_ros2/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:175:51:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresponse[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[11.016s]   175 |   [01;35m[Kstd::shared_ptr<std_srvs::srv::Empty::Response> response[m[K) -> bool
+[11.017s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[21.068s] [100%] [32m[1mLinking CXX executable ydlidar_ros2_driver_node[0m
+[22.432s] [100%] Built target ydlidar_ros2_driver_node
+[22.475s] Invoked command in '/home/wong/Documents/rasp_ros2/build/ydlidar_ros2_driver' returned '0': /usr/bin/cmake --build /home/wong/Documents/rasp_ros2/build/ydlidar_ros2_driver -- -j4 -l4
+[22.633s] Invoking command in '/home/wong/Documents/rasp_ros2/build/ydlidar_ros2_driver': /usr/bin/cmake --install /home/wong/Documents/rasp_ros2/build/ydlidar_ros2_driver
+[22.662s] -- Install configuration: ""
+[22.664s] -- Execute custom install script
+[22.666s] -- Symlinking: /home/wong/Documents/rasp_ros2/install/ydlidar_ros2_driver/lib/ydlidar_ros2_driver/ydlidar_ros2_driver_node
+[22.699s] -- Symlinking: /home/wong/Documents/rasp_ros2/install/ydlidar_ros2_driver/lib/ydlidar_ros2_driver/ydlidar_ros2_driver_client
+[22.733s] -- Symlinking: /home/wong/Documents/rasp_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/4ros_ydlidar_launch.py
+[22.767s] -- Symlinking: /home/wong/Documents/rasp_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/__pycache__/ydlidar_launch.cpython-36.pyc
+[22.799s] -- Symlinking: /home/wong/Documents/rasp_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/__pycache__/ydlidar_launch_view.cpython-36.pyc
+[22.831s] -- Symlinking: /home/wong/Documents/rasp_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/test_gmapping_launch.py
+[22.863s] -- Symlinking: /home/wong/Documents/rasp_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/view_ydlidar_launch.py
+[22.896s] -- Symlinking: /home/wong/Documents/rasp_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/x3_ydlidar_launch.py
+[22.928s] -- Symlinking: /home/wong/Documents/rasp_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar.py
+[22.961s] -- Symlinking: /home/wong/Documents/rasp_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar_4ros_view_launch.py
+[22.992s] -- Symlinking: /home/wong/Documents/rasp_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar_launch.py
+[23.025s] -- Symlinking: /home/wong/Documents/rasp_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar_raw_launch.py
+[23.057s] -- Symlinking: /home/wong/Documents/rasp_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar_x3_view_launch.py
+[23.090s] -- Symlinking: /home/wong/Documents/rasp_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/ydlidar.yaml
+[23.122s] -- Symlinking: /home/wong/Documents/rasp_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/ydlidar_4ros.yaml
+[23.156s] -- Symlinking: /home/wong/Documents/rasp_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/ydlidar_x3.yaml
+[23.189s] -- Symlinking: /home/wong/Documents/rasp_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/startup/initenv.sh
+[23.225s] -- Symlinking: /home/wong/Documents/rasp_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/config/test_gmapping.rviz
+[23.258s] -- Symlinking: /home/wong/Documents/rasp_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/config/ydlidar.rviz
+[23.291s] -- Symlinking: /home/wong/Documents/rasp_ros2/install/ydlidar_ros2_driver/share/ament_index/resource_index/package_run_dependencies/ydlidar_ros2_driver
+[23.324s] -- Symlinking: /home/wong/Documents/rasp_ros2/install/ydlidar_ros2_driver/share/ament_index/resource_index/parent_prefix_path/ydlidar_ros2_driver
+[23.357s] -- Symlinking: /home/wong/Documents/rasp_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/ament_prefix_path.sh
+[23.390s] -- Symlinking: /home/wong/Documents/rasp_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/ament_prefix_path.dsv
+[23.424s] -- Symlinking: /home/wong/Documents/rasp_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/path.sh
+[23.457s] -- Symlinking: /home/wong/Documents/rasp_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/path.dsv
+[23.489s] -- Symlinking: /home/wong/Documents/rasp_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.bash
+[23.522s] -- Symlinking: /home/wong/Documents/rasp_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.sh
+[23.555s] -- Symlinking: /home/wong/Documents/rasp_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.zsh
+[23.587s] -- Symlinking: /home/wong/Documents/rasp_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.dsv
+[23.620s] -- Symlinking: /home/wong/Documents/rasp_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.dsv
+[23.655s] -- Symlinking: /home/wong/Documents/rasp_ros2/install/ydlidar_ros2_driver/share/ament_index/resource_index/packages/ydlidar_ros2_driver
+[23.688s] -- Symlinking: /home/wong/Documents/rasp_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/cmake/ydlidar_ros2_driverConfig.cmake
+[23.721s] -- Symlinking: /home/wong/Documents/rasp_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/cmake/ydlidar_ros2_driverConfig-version.cmake
+[23.753s] -- Symlinking: /home/wong/Documents/rasp_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.xml
+[23.792s] Invoked command in '/home/wong/Documents/rasp_ros2/build/ydlidar_ros2_driver' returned '0': /usr/bin/cmake --install /home/wong/Documents/rasp_ros2/build/ydlidar_ros2_driver

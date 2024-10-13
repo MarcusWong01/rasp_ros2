@@ -1,0 +1,154 @@
+[  4%] [32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/core/base/timer.cpp.o[0m
+[  8%] [32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/core/network/ActiveSocket.cpp.o[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/core/network/PassiveSocket.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/core/common/ydlidar_def.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/core/network/SimpleSocket.cpp.o[0m
+[ 24%] [32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/core/serial/serial.cpp.o[0m
+[ 28%] [32mBuilding C object CMakeFiles/ydlidar_sdk.dir/core/serial/impl/unix/lock.c.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/core/serial/impl/unix/list_ports_linux.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/core/serial/impl/unix/unix_serial.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/src/CYdLidar.cpp.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/src/ETLidarDriver.cpp.o[0m
+[ 48%] [32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/src/ydlidar_driver.cpp.o[0m
+[ 52%] [32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/src/ydlidar_sdk.cpp.o[0m
+[ 56%] [32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/src/filters/NoiseFilter.cpp.o[0m
+[ 60%] [32m[1mLinking CXX static library libydlidar_sdk.a[0m
+[ 60%] Built target ydlidar_sdk
+[ 64%] [32mBuilding CXX object samples/CMakeFiles/ydlidar_test.dir/ydlidar_test.cpp.o[0m
+[ 68%] [32mBuilding CXX object samples/CMakeFiles/tof_test.dir/tof_test.cpp.o[0m
+[ 72%] [32mBuilding C object samples/CMakeFiles/lidar_c_api_test.dir/lidar_c_api_test.c.o[0m
+[ 76%] [32mBuilding CXX object samples/CMakeFiles/etlidar_test.dir/etlidar_test.cpp.o[0m
+[ 80%] [32m[1mLinking CXX executable ../lidar_c_api_test[0m
+[ 80%] Built target lidar_c_api_test
+[ 84%] [32mBuilding CXX object test/CMakeFiles/lidar_test.dir/lidar_test.cpp.o[0m
+[ 88%] [32m[1mLinking CXX executable ../etlidar_test[0m
+[ 92%] [32m[1mLinking CXX executable ../ydlidar_test[0m
+[ 96%] [32m[1mLinking CXX executable ../tof_test[0m
+[ 96%] Built target etlidar_test
+[ 96%] Built target ydlidar_test
+[ 96%] Built target tof_test
+[100%] [32m[1mLinking CXX executable lidar_test[0m
+[100%] Built target lidar_test
+-- Install configuration: ""
+-- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/include/core/base/datatype.h
+-- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/include/core/base/locker.h
+-- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/include/core/base/thread.h
+-- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/include/core/base/timer.h
+-- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/include/core/base/typedef.h
+-- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/include/core/base/utils.h
+-- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/include/core/base/v8stdint.h
+-- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/include/core/base/ydlidar.h
+-- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/include/core/common/ChannelDevice.h
+-- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/include/core/common/DriverInterface.h
+-- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/include/core/common/ydlidar_datatype.h
+-- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/include/core/common/ydlidar_def.h
+-- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/include/core/common/ydlidar_help.h
+-- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/include/core/common/ydlidar_protocol.h
+-- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/include/core/math/angles.h
+-- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/include/core/network/ActiveSocket.h
+-- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/include/core/network/PassiveSocket.h
+-- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/include/core/network/SimpleSocket.h
+-- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/include/core/network/StatTimer.h
+-- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/include/core/serial/common.h
+-- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/include/core/serial/serial.h
+-- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/include/core/serial/impl/unix/lock.h
+-- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/include/core/serial/impl/unix/unix.h
+-- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/include/core/serial/impl/unix/unix_serial.h
+-- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/include/src/CYdLidar.h
+-- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/include/src/ETLidarDriver.h
+-- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/include/src/ydlidar_driver.h
+-- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/include/src/ydlidar_sdk.h
+-- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/include/src/filters/FilterInterface.h
+-- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/include/src/filters/NoiseFilter.h
+-- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/include/ydlidar_config.h
+-- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/lib/libydlidar_sdk.a
+-- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/lib/pkgconfig/YDLIDAR_SDK.pc
+-- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/lib/cmake/ydlidar_sdk/ydlidar_sdkConfig.cmake
+-- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/lib/cmake/ydlidar_sdk/ydlidar_sdkTargets.cmake
+-- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/lib/cmake/ydlidar_sdk/ydlidar_sdkConfigVersion.cmake
+-- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/FindYDLIDAR_SDK.cmake
+-- Up-to-date: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK
+-- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/cmake_uninstall.cmake.in
+-- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/FindPackage.cmake.in
+-- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/PackageConfigVersion.cmake.in
+-- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/script_show_final_summary.cmake
+-- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/PackageConfig.cmake.in
+-- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/common
+-- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/common/ydlidar_parse.cmake
+-- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/common/ydlidar_base.cmake
+-- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/install_package.cmake
+-- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/PkgConfig.pc.in
+-- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/LICENSE.txt
+-- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/README.md
+-- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc
+-- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/quickstart
+-- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/quickstart/ydlidar_sdk_software_installation_guide.md
+-- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/quickstart/README.md
+-- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/Dataset.md
+-- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/README.md
+-- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/YDLIDAR_SDK_API_for_Developers.md
+-- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images
+-- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/FlowChart.png
+-- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/sdk_init.png
+-- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/sdk_architecture.png
+-- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/sequence.png
+-- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/frame.png
+-- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/angle_q2.png
+-- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/YDLidar.png
+-- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/communication_mechanism.png
+-- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/EAI.png
+-- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/frame_intensity.png
+-- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/system_workflow.png
+-- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/sdk_scanning.png
+-- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/YDLidar.jpg
+-- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/Diagram.md
+-- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/YDLidar-SDK-Communication-Protocol.pdf
+-- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/Tutorials.md
+-- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/YDLidar-SDK-Communication-Protocol.html
+-- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/YDLidar_SDK_Communication_Protocol.pdf
+-- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/YDLidar-SDK-Communication-Protocol.md
+-- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/tutorials
+-- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/tutorials/examine_the_simple_lidar_tutorial.md
+-- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/tutorials/writing_lidar_tutorial_c++.md
+-- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/tutorials/writing_lidar_tutorial_c.md
+-- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/tutorials/writing_lidar_tutorial_python.md
+-- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/tutorials/writing_lidar_network_adapter_tutorial_c++.md
+-- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/SDK.pdf
+-- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/FAQs
+-- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/FAQs/Hardware_FAQs_cn.md
+-- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/FAQs/Software_FAQs_cn.md
+-- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/FAQs/Hardware_FAQs.md
+-- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/FAQs/README.md
+-- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/FAQs/General_FAQs.md
+-- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/FAQs/Software_FAQs.md
+-- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/FAQs/General_FAQs_cn.md
+-- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto
+-- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/how_to_build_and_debug_using_vscode.md
+-- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/how_to_create_a_pull.md
+-- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/how_to_create_a_udev_rules.md
+-- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/how_to_build_and_install.md
+-- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/README.md
+-- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images
+-- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/vscode
+-- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/vscode/tasks.png
+-- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/vscode/run_tasks.jpg
+-- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/sdk_init.png
+-- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/csharp_build.png
+-- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/ydlidar_lidar_monitor.png
+-- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/sequence.png
+-- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/csharp_project.png
+-- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/csharp_exception.png
+-- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/cpack.png
+-- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/csharp_running.png
+-- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/csharp_library.png
+-- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/ttyUSB1.png
+-- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/ttyUSB0.png
+-- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/sdk_scanning.png
+-- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/how_to_solve_slow_pull_from_cn.md
+-- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/how_to_gerenrate_vs_project_by_cmake.md
+-- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/how_to_create_a_csharp_project.md
+-- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/startup/initenv.sh
+-- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/bin/etlidar_test
+-- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/bin/tof_test
+-- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/bin/ydlidar_test
+-- Installing: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/bin/lidar_c_api_test

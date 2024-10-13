@@ -1,0 +1,457 @@
+[0.000000] (-) TimerEvent: {}
+[0.001227] (ydlidar_ros2_driver) JobQueued: {'identifier': 'ydlidar_ros2_driver', 'dependencies': OrderedDict()}
+[0.002208] (ydlidar_sdk) JobQueued: {'identifier': 'ydlidar_sdk', 'dependencies': OrderedDict()}
+[0.002843] (ydlidar_ros2_driver) JobStarted: {'identifier': 'ydlidar_ros2_driver'}
+[0.029715] (ydlidar_sdk) JobStarted: {'identifier': 'ydlidar_sdk'}
+[0.053400] (ydlidar_ros2_driver) JobProgress: {'identifier': 'ydlidar_ros2_driver', 'progress': 'cmake'}
+[0.057765] (ydlidar_ros2_driver) JobProgress: {'identifier': 'ydlidar_ros2_driver', 'progress': 'build'}
+[0.061010] (ydlidar_ros2_driver) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/wong/Documents/rasp_ros2/build/ydlidar_ros2_driver', '--', '-j4', '-l4'], 'cwd': '/home/wong/Documents/rasp_ros2/build/ydlidar_ros2_driver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'wong'), ('SSH_CLIENT', '192.168.0.103 52222 22'), ('LC_TIME', 'ms_MY.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/wong/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/wong/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/wong'), ('OLDPWD', '/home/wong/Documents/rasp_ros2/YDLidar-SDK-master'), ('TERM_PROGRAM_VERSION', '1.94.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-c0d6b5dd-3013-4b3a-b0db-36823a0023b6.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/wong/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ms_MY.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/wong/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'wong'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '5'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/wong/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'ms_MY.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ms_MY.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-f787a9fff3.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ms_MY.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ms_MY.UTF-8'), ('LC_IDENTIFICATION', 'ms_MY.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/wong/Documents/rasp_ros2/build/ydlidar_ros2_driver'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.103 52222 192.168.0.167 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ms_MY.UTF-8'), ('LC_PAPER', 'ms_MY.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble:')]), 'shell': False}
+[0.081034] (ydlidar_sdk) JobProgress: {'identifier': 'ydlidar_sdk', 'progress': 'cmake'}
+[0.084156] (ydlidar_sdk) JobProgress: {'identifier': 'ydlidar_sdk', 'progress': 'build'}
+[0.085686] (ydlidar_sdk) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/wong/Documents/rasp_ros2/build/ydlidar_sdk', '--', '-j4', '-l4'], 'cwd': '/home/wong/Documents/rasp_ros2/build/ydlidar_sdk', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'wong'), ('SSH_CLIENT', '192.168.0.103 52222 22'), ('LC_TIME', 'ms_MY.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/wong/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/wong/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/wong'), ('OLDPWD', '/home/wong/Documents/rasp_ros2/YDLidar-SDK-master'), ('TERM_PROGRAM_VERSION', '1.94.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-c0d6b5dd-3013-4b3a-b0db-36823a0023b6.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/wong/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ms_MY.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/wong/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'wong'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '5'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/wong/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'ms_MY.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ms_MY.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-f787a9fff3.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ms_MY.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ms_MY.UTF-8'), ('LC_IDENTIFICATION', 'ms_MY.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/wong/Documents/rasp_ros2/build/ydlidar_sdk'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.103 52222 192.168.0.167 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ms_MY.UTF-8'), ('LC_PAPER', 'ms_MY.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble:')]), 'shell': False}
+[0.099306] (-) TimerEvent: {}
+[0.201049] (-) TimerEvent: {}
+[0.246564] (ydlidar_ros2_driver) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target ydlidar_ros2_driver_client\x1b[0m\n'}
+[0.252671] (ydlidar_ros2_driver) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target ydlidar_ros2_driver_node\x1b[0m\n'}
+[0.264722] (ydlidar_sdk) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target ydlidar_sdk\x1b[0m\n'}
+[0.304355] (-) TimerEvent: {}
+[0.343677] (ydlidar_ros2_driver) StdoutLine: {'line': b'[ 50%] Built target ydlidar_ros2_driver_client\n'}
+[0.354070] (ydlidar_ros2_driver) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/ydlidar_ros2_driver_node.dir/src/ydlidar_ros2_driver_node.cpp.o\x1b[0m\n'}
+[0.404583] (-) TimerEvent: {}
+[0.412648] (ydlidar_sdk) StdoutLine: {'line': b'[ 60%] Built target ydlidar_sdk\n'}
+[0.474368] (ydlidar_sdk) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target ydlidar_test\x1b[0m\n'}
+[0.487715] (ydlidar_sdk) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target etlidar_test\x1b[0m\n'}
+[0.492552] (ydlidar_sdk) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tof_test\x1b[0m\n'}
+[0.504752] (-) TimerEvent: {}
+[0.519840] (ydlidar_sdk) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target lidar_c_api_test\x1b[0m\n'}
+[0.604989] (-) TimerEvent: {}
+[0.613254] (ydlidar_sdk) StdoutLine: {'line': b'[ 72%] Built target tof_test\n'}
+[0.615157] (ydlidar_sdk) StdoutLine: {'line': b'[ 76%] Built target ydlidar_test\n'}
+[0.649602] (ydlidar_sdk) StdoutLine: {'line': b'[ 84%] Built target etlidar_test\n'}
+[0.658907] (ydlidar_sdk) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target lidar_test\x1b[0m\n'}
+[0.662066] (ydlidar_sdk) StdoutLine: {'line': b'[ 92%] Built target lidar_c_api_test\n'}
+[0.705245] (-) TimerEvent: {}
+[0.730636] (ydlidar_sdk) StdoutLine: {'line': b'[100%] Built target lidar_test\n'}
+[0.772975] (ydlidar_sdk) CommandEnded: {'returncode': 0}
+[0.805427] (-) TimerEvent: {}
+[0.906847] (-) TimerEvent: {}
+[1.007527] (-) TimerEvent: {}
+[1.109175] (-) TimerEvent: {}
+[1.120888] (ydlidar_sdk) JobProgress: {'identifier': 'ydlidar_sdk', 'progress': 'install'}
+[1.152736] (ydlidar_sdk) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/wong/Documents/rasp_ros2/build/ydlidar_sdk'], 'cwd': '/home/wong/Documents/rasp_ros2/build/ydlidar_sdk', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'wong'), ('SSH_CLIENT', '192.168.0.103 52222 22'), ('LC_TIME', 'ms_MY.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/wong/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/wong/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/wong'), ('OLDPWD', '/home/wong/Documents/rasp_ros2/YDLidar-SDK-master'), ('TERM_PROGRAM_VERSION', '1.94.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-c0d6b5dd-3013-4b3a-b0db-36823a0023b6.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/wong/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ms_MY.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/wong/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'wong'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '5'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/wong/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'ms_MY.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ms_MY.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-f787a9fff3.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ms_MY.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ms_MY.UTF-8'), ('LC_IDENTIFICATION', 'ms_MY.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/wong/Documents/rasp_ros2/build/ydlidar_sdk'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.103 52222 192.168.0.167 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ms_MY.UTF-8'), ('LC_PAPER', 'ms_MY.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble:')]), 'shell': False}
+[1.189956] (ydlidar_sdk) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.191259] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/include/core/base/datatype.h\n'}
+[1.192406] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/include/core/base/locker.h\n'}
+[1.193430] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/include/core/base/thread.h\n'}
+[1.194382] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/include/core/base/timer.h\n'}
+[1.195447] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/include/core/base/typedef.h\n'}
+[1.196579] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/include/core/base/utils.h\n'}
+[1.197624] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/include/core/base/v8stdint.h\n'}
+[1.198521] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/include/core/base/ydlidar.h\n'}
+[1.199791] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/include/core/common/ChannelDevice.h\n'}
+[1.201024] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/include/core/common/DriverInterface.h\n'}
+[1.202031] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/include/core/common/ydlidar_datatype.h\n'}
+[1.202967] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/include/core/common/ydlidar_def.h\n'}
+[1.204253] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/include/core/common/ydlidar_help.h\n'}
+[1.205258] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/include/core/common/ydlidar_protocol.h\n'}
+[1.206333] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/include/core/math/angles.h\n'}
+[1.207449] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/include/core/network/ActiveSocket.h\n'}
+[1.208428] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/include/core/network/PassiveSocket.h\n'}
+[1.209271] (-) TimerEvent: {}
+[1.210238] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/include/core/network/SimpleSocket.h\n'}
+[1.211895] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/include/core/network/StatTimer.h\n'}
+[1.213045] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/include/core/serial/common.h\n'}
+[1.214165] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/include/core/serial/serial.h\n'}
+[1.216395] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/include/core/serial/impl/unix/lock.h\n'}
+[1.216912] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/include/core/serial/impl/unix/unix.h\n'}
+[1.217426] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/include/core/serial/impl/unix/unix_serial.h\n'}
+[1.218273] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/include/src/CYdLidar.h\n'}
+[1.219383] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/include/src/ETLidarDriver.h\n'}
+[1.220520] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/include/src/ydlidar_driver.h\n'}
+[1.221710] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/include/src/ydlidar_sdk.h\n'}
+[1.222840] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/include/src/filters/FilterInterface.h\n'}
+[1.224111] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/include/src/filters/NoiseFilter.h\n'}
+[1.225164] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/include/ydlidar_config.h\n'}
+[1.225841] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/lib/libydlidar_sdk.a\n'}
+[1.226719] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/lib/pkgconfig/YDLIDAR_SDK.pc\n'}
+[1.227454] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/lib/cmake/ydlidar_sdk/ydlidar_sdkConfig.cmake\n'}
+[1.227999] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/lib/cmake/ydlidar_sdk/ydlidar_sdkTargets.cmake\n'}
+[1.229443] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/lib/cmake/ydlidar_sdk/ydlidar_sdkConfigVersion.cmake\n'}
+[1.230180] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/FindYDLIDAR_SDK.cmake\n'}
+[1.230793] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK\n'}
+[1.231318] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/cmake_uninstall.cmake.in\n'}
+[1.231756] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/FindPackage.cmake.in\n'}
+[1.233104] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/PackageConfigVersion.cmake.in\n'}
+[1.234160] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/script_show_final_summary.cmake\n'}
+[1.235263] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/PackageConfig.cmake.in\n'}
+[1.236406] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/common\n'}
+[1.237570] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/common/ydlidar_parse.cmake\n'}
+[1.238827] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/common/ydlidar_base.cmake\n'}
+[1.239518] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/install_package.cmake\n'}
+[1.240269] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/PkgConfig.pc.in\n'}
+[1.241193] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/LICENSE.txt\n'}
+[1.242098] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/README.md\n'}
+[1.242767] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc\n'}
+[1.243500] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/quickstart\n'}
+[1.244502] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/quickstart/ydlidar_sdk_software_installation_guide.md\n'}
+[1.245271] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/quickstart/README.md\n'}
+[1.246349] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/Dataset.md\n'}
+[1.247281] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/README.md\n'}
+[1.248453] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/YDLIDAR_SDK_API_for_Developers.md\n'}
+[1.249580] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images\n'}
+[1.250297] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/FlowChart.png\n'}
+[1.250732] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/sdk_init.png\n'}
+[1.251178] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/sdk_architecture.png\n'}
+[1.251578] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/sequence.png\n'}
+[1.251961] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/frame.png\n'}
+[1.252506] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/angle_q2.png\n'}
+[1.253140] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/YDLidar.png\n'}
+[1.253516] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/communication_mechanism.png\n'}
+[1.253881] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/EAI.png\n'}
+[1.254252] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/frame_intensity.png\n'}
+[1.254641] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/system_workflow.png\n'}
+[1.255018] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/sdk_scanning.png\n'}
+[1.255396] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/YDLidar.jpg\n'}
+[1.255768] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/Diagram.md\n'}
+[1.256288] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/YDLidar-SDK-Communication-Protocol.pdf\n'}
+[1.256833] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/Tutorials.md\n'}
+[1.257210] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/YDLidar-SDK-Communication-Protocol.html\n'}
+[1.258142] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/YDLidar_SDK_Communication_Protocol.pdf\n'}
+[1.258579] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/YDLidar-SDK-Communication-Protocol.md\n'}
+[1.259259] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/tutorials\n'}
+[1.259703] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/tutorials/examine_the_simple_lidar_tutorial.md\n'}
+[1.260074] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/tutorials/writing_lidar_tutorial_c++.md\n'}
+[1.260827] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/tutorials/writing_lidar_tutorial_c.md\n'}
+[1.261199] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/tutorials/writing_lidar_tutorial_python.md\n'}
+[1.261513] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/tutorials/writing_lidar_network_adapter_tutorial_c++.md\n'}
+[1.262047] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/SDK.pdf\n'}
+[1.262417] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/FAQs\n'}
+[1.262924] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/FAQs/Hardware_FAQs_cn.md\n'}
+[1.263357] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/FAQs/Software_FAQs_cn.md\n'}
+[1.263990] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/FAQs/Hardware_FAQs.md\n'}
+[1.264753] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/FAQs/README.md\n'}
+[1.265235] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/FAQs/General_FAQs.md\n'}
+[1.265757] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/FAQs/Software_FAQs.md\n'}
+[1.266462] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/FAQs/General_FAQs_cn.md\n'}
+[1.266967] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto\n'}
+[1.267905] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/how_to_build_and_debug_using_vscode.md\n'}
+[1.268975] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/how_to_create_a_pull.md\n'}
+[1.270027] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/how_to_create_a_udev_rules.md\n'}
+[1.271893] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/how_to_build_and_install.md\n'}
+[1.272587] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/README.md\n'}
+[1.273267] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images\n'}
+[1.274206] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/vscode\n'}
+[1.274986] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/vscode/tasks.png\n'}
+[1.276127] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/vscode/run_tasks.jpg\n'}
+[1.278812] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/sdk_init.png\n'}
+[1.279381] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/csharp_build.png\n'}
+[1.280048] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/ydlidar_lidar_monitor.png\n'}
+[1.280718] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/sequence.png\n'}
+[1.281279] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/csharp_project.png\n'}
+[1.282050] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/csharp_exception.png\n'}
+[1.282629] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/cpack.png\n'}
+[1.283638] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/csharp_running.png\n'}
+[1.284455] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/csharp_library.png\n'}
+[1.284917] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/ttyUSB1.png\n'}
+[1.285634] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/ttyUSB0.png\n'}
+[1.286080] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/sdk_scanning.png\n'}
+[1.286711] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/how_to_solve_slow_pull_from_cn.md\n'}
+[1.287789] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/how_to_gerenrate_vs_project_by_cmake.md\n'}
+[1.289024] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/how_to_create_a_csharp_project.md\n'}
+[1.289463] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/startup/initenv.sh\n'}
+[1.290660] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/bin/etlidar_test\n'}
+[1.291287] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/bin/tof_test\n'}
+[1.292112] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/bin/ydlidar_test\n'}
+[1.292626] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/wong/Documents/rasp_ros2/install/ydlidar_sdk/bin/lidar_c_api_test\n'}
+[1.293429] (ydlidar_sdk) CommandEnded: {'returncode': 0}
+[1.309968] (-) TimerEvent: {}
+[1.358816] (ydlidar_sdk) JobEnded: {'identifier': 'ydlidar_sdk', 'rc': 0}
+[1.410230] (-) TimerEvent: {}
+[1.510941] (-) TimerEvent: {}
+[1.611742] (-) TimerEvent: {}
+[1.712557] (-) TimerEvent: {}
+[1.813576] (-) TimerEvent: {}
+[1.914304] (-) TimerEvent: {}
+[2.015051] (-) TimerEvent: {}
+[2.115773] (-) TimerEvent: {}
+[2.216550] (-) TimerEvent: {}
+[2.317546] (-) TimerEvent: {}
+[2.418321] (-) TimerEvent: {}
+[2.519097] (-) TimerEvent: {}
+[2.619933] (-) TimerEvent: {}
+[2.721007] (-) TimerEvent: {}
+[2.821822] (-) TimerEvent: {}
+[2.922619] (-) TimerEvent: {}
+[3.023389] (-) TimerEvent: {}
+[3.124275] (-) TimerEvent: {}
+[3.225070] (-) TimerEvent: {}
+[3.325864] (-) TimerEvent: {}
+[3.426646] (-) TimerEvent: {}
+[3.527474] (-) TimerEvent: {}
+[3.628537] (-) TimerEvent: {}
+[3.729389] (-) TimerEvent: {}
+[3.830276] (-) TimerEvent: {}
+[3.931189] (-) TimerEvent: {}
+[4.032061] (-) TimerEvent: {}
+[4.133096] (-) TimerEvent: {}
+[4.233920] (-) TimerEvent: {}
+[4.334708] (-) TimerEvent: {}
+[4.435528] (-) TimerEvent: {}
+[4.536549] (-) TimerEvent: {}
+[4.637491] (-) TimerEvent: {}
+[4.738310] (-) TimerEvent: {}
+[4.839142] (-) TimerEvent: {}
+[4.940117] (-) TimerEvent: {}
+[5.040916] (-) TimerEvent: {}
+[5.141680] (-) TimerEvent: {}
+[5.242465] (-) TimerEvent: {}
+[5.343383] (-) TimerEvent: {}
+[5.444447] (-) TimerEvent: {}
+[5.545255] (-) TimerEvent: {}
+[5.646028] (-) TimerEvent: {}
+[5.746767] (-) TimerEvent: {}
+[5.847833] (-) TimerEvent: {}
+[5.948652] (-) TimerEvent: {}
+[6.049489] (-) TimerEvent: {}
+[6.150349] (-) TimerEvent: {}
+[6.251258] (-) TimerEvent: {}
+[6.352053] (-) TimerEvent: {}
+[6.452866] (-) TimerEvent: {}
+[6.553652] (-) TimerEvent: {}
+[6.654431] (-) TimerEvent: {}
+[6.755387] (-) TimerEvent: {}
+[6.856261] (-) TimerEvent: {}
+[6.957073] (-) TimerEvent: {}
+[7.057836] (-) TimerEvent: {}
+[7.158603] (-) TimerEvent: {}
+[7.259585] (-) TimerEvent: {}
+[7.360398] (-) TimerEvent: {}
+[7.461188] (-) TimerEvent: {}
+[7.562026] (-) TimerEvent: {}
+[7.662883] (-) TimerEvent: {}
+[7.763859] (-) TimerEvent: {}
+[7.864671] (-) TimerEvent: {}
+[7.965456] (-) TimerEvent: {}
+[8.066239] (-) TimerEvent: {}
+[8.167182] (-) TimerEvent: {}
+[8.267982] (-) TimerEvent: {}
+[8.368804] (-) TimerEvent: {}
+[8.469650] (-) TimerEvent: {}
+[8.570501] (-) TimerEvent: {}
+[8.671362] (-) TimerEvent: {}
+[8.772152] (-) TimerEvent: {}
+[8.873014] (-) TimerEvent: {}
+[8.973822] (-) TimerEvent: {}
+[9.074843] (-) TimerEvent: {}
+[9.175698] (-) TimerEvent: {}
+[9.276582] (-) TimerEvent: {}
+[9.377396] (-) TimerEvent: {}
+[9.478180] (-) TimerEvent: {}
+[9.579187] (-) TimerEvent: {}
+[9.680274] (-) TimerEvent: {}
+[9.781182] (-) TimerEvent: {}
+[9.882300] (-) TimerEvent: {}
+[9.983164] (-) TimerEvent: {}
+[10.084000] (-) TimerEvent: {}
+[10.184862] (-) TimerEvent: {}
+[10.285700] (-) TimerEvent: {}
+[10.386655] (-) TimerEvent: {}
+[10.487518] (-) TimerEvent: {}
+[10.588669] (-) TimerEvent: {}
+[10.689778] (-) TimerEvent: {}
+[10.790842] (-) TimerEvent: {}
+[10.891777] (-) TimerEvent: {}
+[10.938674] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/wong/Documents/rasp_ros2/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:\x1b[m\x1b[K In lambda function:\n'}
+[10.939593] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/wong/Documents/rasp_ros2/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:163:54:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Krequest_header\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.940064] (ydlidar_ros2_driver) StderrLine: {'line': b'  163 |     [&laser](\x1b[01;35m\x1b[Kconst std::shared_ptr<rmw_request_id_t> request_header\x1b[m\x1b[K,\n'}
+[10.940606] (ydlidar_ros2_driver) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.941191] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/wong/Documents/rasp_ros2/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:164:56:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kreq\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.941960] (ydlidar_ros2_driver) StderrLine: {'line': b'  164 |   \x1b[01;35m\x1b[Kconst std::shared_ptr<std_srvs::srv::Empty::Request> req\x1b[m\x1b[K,\n'}
+[10.942625] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[10.943254] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/wong/Documents/rasp_ros2/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:165:51:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kresponse\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.943833] (ydlidar_ros2_driver) StderrLine: {'line': b'  165 |   \x1b[01;35m\x1b[Kstd::shared_ptr<std_srvs::srv::Empty::Response> response\x1b[m\x1b[K) -> bool\n'}
+[10.944525] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[10.991981] (-) TimerEvent: {}
+[11.015116] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/wong/Documents/rasp_ros2/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:\x1b[m\x1b[K In lambda function:\n'}
+[11.016020] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/wong/Documents/rasp_ros2/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:173:54:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Krequest_header\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.016620] (ydlidar_ros2_driver) StderrLine: {'line': b'  173 |     [&laser](\x1b[01;35m\x1b[Kconst std::shared_ptr<rmw_request_id_t> request_header\x1b[m\x1b[K,\n'}
+[11.017060] (ydlidar_ros2_driver) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.017450] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/wong/Documents/rasp_ros2/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:174:56:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kreq\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.017877] (ydlidar_ros2_driver) StderrLine: {'line': b'  174 |   \x1b[01;35m\x1b[Kconst std::shared_ptr<std_srvs::srv::Empty::Request> req\x1b[m\x1b[K,\n'}
+[11.018270] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[11.018698] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/wong/Documents/rasp_ros2/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:175:51:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kresponse\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.019264] (ydlidar_ros2_driver) StderrLine: {'line': b'  175 |   \x1b[01;35m\x1b[Kstd::shared_ptr<std_srvs::srv::Empty::Response> response\x1b[m\x1b[K) -> bool\n'}
+[11.020033] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[11.092253] (-) TimerEvent: {}
+[11.193202] (-) TimerEvent: {}
+[11.294181] (-) TimerEvent: {}
+[11.395192] (-) TimerEvent: {}
+[11.495983] (-) TimerEvent: {}
+[11.596796] (-) TimerEvent: {}
+[11.697770] (-) TimerEvent: {}
+[11.798572] (-) TimerEvent: {}
+[11.899404] (-) TimerEvent: {}
+[12.000280] (-) TimerEvent: {}
+[12.101068] (-) TimerEvent: {}
+[12.202023] (-) TimerEvent: {}
+[12.302798] (-) TimerEvent: {}
+[12.403590] (-) TimerEvent: {}
+[12.504449] (-) TimerEvent: {}
+[12.605412] (-) TimerEvent: {}
+[12.706195] (-) TimerEvent: {}
+[12.806988] (-) TimerEvent: {}
+[12.907776] (-) TimerEvent: {}
+[13.008624] (-) TimerEvent: {}
+[13.109477] (-) TimerEvent: {}
+[13.210280] (-) TimerEvent: {}
+[13.311066] (-) TimerEvent: {}
+[13.411867] (-) TimerEvent: {}
+[13.512692] (-) TimerEvent: {}
+[13.613505] (-) TimerEvent: {}
+[13.714333] (-) TimerEvent: {}
+[13.815138] (-) TimerEvent: {}
+[13.915952] (-) TimerEvent: {}
+[14.016992] (-) TimerEvent: {}
+[14.117901] (-) TimerEvent: {}
+[14.218674] (-) TimerEvent: {}
+[14.319496] (-) TimerEvent: {}
+[14.420312] (-) TimerEvent: {}
+[14.521309] (-) TimerEvent: {}
+[14.622128] (-) TimerEvent: {}
+[14.722955] (-) TimerEvent: {}
+[14.823783] (-) TimerEvent: {}
+[14.924829] (-) TimerEvent: {}
+[15.025749] (-) TimerEvent: {}
+[15.126567] (-) TimerEvent: {}
+[15.227360] (-) TimerEvent: {}
+[15.328243] (-) TimerEvent: {}
+[15.429234] (-) TimerEvent: {}
+[15.530248] (-) TimerEvent: {}
+[15.631052] (-) TimerEvent: {}
+[15.731911] (-) TimerEvent: {}
+[15.832898] (-) TimerEvent: {}
+[15.933682] (-) TimerEvent: {}
+[16.034475] (-) TimerEvent: {}
+[16.135281] (-) TimerEvent: {}
+[16.236303] (-) TimerEvent: {}
+[16.337077] (-) TimerEvent: {}
+[16.437868] (-) TimerEvent: {}
+[16.538669] (-) TimerEvent: {}
+[16.639670] (-) TimerEvent: {}
+[16.740514] (-) TimerEvent: {}
+[16.841305] (-) TimerEvent: {}
+[16.942094] (-) TimerEvent: {}
+[17.042916] (-) TimerEvent: {}
+[17.143895] (-) TimerEvent: {}
+[17.244710] (-) TimerEvent: {}
+[17.345540] (-) TimerEvent: {}
+[17.446474] (-) TimerEvent: {}
+[17.547651] (-) TimerEvent: {}
+[17.648610] (-) TimerEvent: {}
+[17.749487] (-) TimerEvent: {}
+[17.850284] (-) TimerEvent: {}
+[17.951314] (-) TimerEvent: {}
+[18.052117] (-) TimerEvent: {}
+[18.152947] (-) TimerEvent: {}
+[18.253740] (-) TimerEvent: {}
+[18.354542] (-) TimerEvent: {}
+[18.455516] (-) TimerEvent: {}
+[18.556312] (-) TimerEvent: {}
+[18.657096] (-) TimerEvent: {}
+[18.757861] (-) TimerEvent: {}
+[18.858751] (-) TimerEvent: {}
+[18.959693] (-) TimerEvent: {}
+[19.060507] (-) TimerEvent: {}
+[19.161239] (-) TimerEvent: {}
+[19.262026] (-) TimerEvent: {}
+[19.363001] (-) TimerEvent: {}
+[19.463801] (-) TimerEvent: {}
+[19.564650] (-) TimerEvent: {}
+[19.665427] (-) TimerEvent: {}
+[19.766283] (-) TimerEvent: {}
+[19.867292] (-) TimerEvent: {}
+[19.968220] (-) TimerEvent: {}
+[20.068962] (-) TimerEvent: {}
+[20.169745] (-) TimerEvent: {}
+[20.270780] (-) TimerEvent: {}
+[20.371566] (-) TimerEvent: {}
+[20.472351] (-) TimerEvent: {}
+[20.573164] (-) TimerEvent: {}
+[20.673914] (-) TimerEvent: {}
+[20.774950] (-) TimerEvent: {}
+[20.875948] (-) TimerEvent: {}
+[20.976852] (-) TimerEvent: {}
+[21.070768] (ydlidar_ros2_driver) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable ydlidar_ros2_driver_node\x1b[0m\n'}
+[21.077018] (-) TimerEvent: {}
+[21.177777] (-) TimerEvent: {}
+[21.278786] (-) TimerEvent: {}
+[21.379654] (-) TimerEvent: {}
+[21.480671] (-) TimerEvent: {}
+[21.581588] (-) TimerEvent: {}
+[21.682601] (-) TimerEvent: {}
+[21.783552] (-) TimerEvent: {}
+[21.884519] (-) TimerEvent: {}
+[21.985467] (-) TimerEvent: {}
+[22.086878] (-) TimerEvent: {}
+[22.188021] (-) TimerEvent: {}
+[22.289077] (-) TimerEvent: {}
+[22.389817] (-) TimerEvent: {}
+[22.434739] (ydlidar_ros2_driver) StdoutLine: {'line': b'[100%] Built target ydlidar_ros2_driver_node\n'}
+[22.477909] (ydlidar_ros2_driver) CommandEnded: {'returncode': 0}
+[22.489983] (-) TimerEvent: {}
+[22.590710] (-) TimerEvent: {}
+[22.628448] (ydlidar_ros2_driver) JobProgress: {'identifier': 'ydlidar_ros2_driver', 'progress': 'install'}
+[22.632240] (ydlidar_ros2_driver) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/wong/Documents/rasp_ros2/build/ydlidar_ros2_driver'], 'cwd': '/home/wong/Documents/rasp_ros2/build/ydlidar_ros2_driver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'wong'), ('SSH_CLIENT', '192.168.0.103 52222 22'), ('LC_TIME', 'ms_MY.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/wong/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/wong/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/wong'), ('OLDPWD', '/home/wong/Documents/rasp_ros2/YDLidar-SDK-master'), ('TERM_PROGRAM_VERSION', '1.94.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-c0d6b5dd-3013-4b3a-b0db-36823a0023b6.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/wong/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ms_MY.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/wong/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'wong'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '5'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/wong/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'ms_MY.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ms_MY.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-f787a9fff3.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ms_MY.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ms_MY.UTF-8'), ('LC_IDENTIFICATION', 'ms_MY.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/wong/Documents/rasp_ros2/build/ydlidar_ros2_driver'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.103 52222 192.168.0.167 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ms_MY.UTF-8'), ('LC_PAPER', 'ms_MY.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble:')]), 'shell': False}
+[22.665270] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[22.667006] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[22.668934] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/wong/Documents/rasp_ros2/install/ydlidar_ros2_driver/lib/ydlidar_ros2_driver/ydlidar_ros2_driver_node\n'}
+[22.690947] (-) TimerEvent: {}
+[22.701586] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/wong/Documents/rasp_ros2/install/ydlidar_ros2_driver/lib/ydlidar_ros2_driver/ydlidar_ros2_driver_client\n'}
+[22.735844] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/wong/Documents/rasp_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/4ros_ydlidar_launch.py\n'}
+[22.769307] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/wong/Documents/rasp_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/__pycache__/ydlidar_launch.cpython-36.pyc\n'}
+[22.791218] (-) TimerEvent: {}
+[22.801724] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/wong/Documents/rasp_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/__pycache__/ydlidar_launch_view.cpython-36.pyc\n'}
+[22.833947] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/wong/Documents/rasp_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/test_gmapping_launch.py\n'}
+[22.866076] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/wong/Documents/rasp_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/view_ydlidar_launch.py\n'}
+[22.891400] (-) TimerEvent: {}
+[22.898255] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/wong/Documents/rasp_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/x3_ydlidar_launch.py\n'}
+[22.931070] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/wong/Documents/rasp_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar.py\n'}
+[22.963426] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/wong/Documents/rasp_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar_4ros_view_launch.py\n'}
+[22.991649] (-) TimerEvent: {}
+[22.995227] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/wong/Documents/rasp_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar_launch.py\n'}
+[23.027978] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/wong/Documents/rasp_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar_raw_launch.py\n'}
+[23.059677] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/wong/Documents/rasp_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar_x3_view_launch.py\n'}
+[23.091824] (-) TimerEvent: {}
+[23.092816] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/wong/Documents/rasp_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/ydlidar.yaml\n'}
+[23.125139] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/wong/Documents/rasp_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/ydlidar_4ros.yaml\n'}
+[23.158582] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/wong/Documents/rasp_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/ydlidar_x3.yaml\n'}
+[23.191890] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/wong/Documents/rasp_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/startup/initenv.sh\n'}
+[23.192648] (-) TimerEvent: {}
+[23.227651] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/wong/Documents/rasp_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/config/test_gmapping.rviz\n'}
+[23.260729] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/wong/Documents/rasp_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/config/ydlidar.rviz\n'}
+[23.292849] (-) TimerEvent: {}
+[23.293559] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/wong/Documents/rasp_ros2/install/ydlidar_ros2_driver/share/ament_index/resource_index/package_run_dependencies/ydlidar_ros2_driver\n'}
+[23.326939] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/wong/Documents/rasp_ros2/install/ydlidar_ros2_driver/share/ament_index/resource_index/parent_prefix_path/ydlidar_ros2_driver\n'}
+[23.359838] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/wong/Documents/rasp_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/ament_prefix_path.sh\n'}
+[23.392627] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/wong/Documents/rasp_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/ament_prefix_path.dsv\n'}
+[23.393265] (-) TimerEvent: {}
+[23.426331] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/wong/Documents/rasp_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/path.sh\n'}
+[23.459316] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/wong/Documents/rasp_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/path.dsv\n'}
+[23.492085] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/wong/Documents/rasp_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.bash\n'}
+[23.493412] (-) TimerEvent: {}
+[23.524743] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/wong/Documents/rasp_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.sh\n'}
+[23.557276] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/wong/Documents/rasp_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.zsh\n'}
+[23.589917] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/wong/Documents/rasp_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.dsv\n'}
+[23.593600] (-) TimerEvent: {}
+[23.623116] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/wong/Documents/rasp_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.dsv\n'}
+[23.657865] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/wong/Documents/rasp_ros2/install/ydlidar_ros2_driver/share/ament_index/resource_index/packages/ydlidar_ros2_driver\n'}
+[23.690372] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/wong/Documents/rasp_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/cmake/ydlidar_ros2_driverConfig.cmake\n'}
+[23.693770] (-) TimerEvent: {}
+[23.723865] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/wong/Documents/rasp_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/cmake/ydlidar_ros2_driverConfig-version.cmake\n'}
+[23.756061] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/wong/Documents/rasp_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.xml\n'}
+[23.793251] (ydlidar_ros2_driver) CommandEnded: {'returncode': 0}
+[23.796424] (-) TimerEvent: {}
+[23.897136] (-) TimerEvent: {}
+[23.997891] (-) TimerEvent: {}
+[24.010755] (ydlidar_ros2_driver) JobEnded: {'identifier': 'ydlidar_ros2_driver', 'rc': 0}
+[24.014595] (-) EventReactorShutdown: {}
