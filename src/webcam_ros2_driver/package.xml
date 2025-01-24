@@ -1,0 +1,15 @@
+<package format="3">
+  <name>webcam_ros2_driver</name>
+  <version>0.1.0</version>
+  <description>A custom ROS 2 package for webcam functionality</description>
+
+  <maintainer email="wongherseng@gmail.com">Marcus Wong</maintainer>
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <buildtool_depend>ament_python</buildtool_depend>
+
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>opencv-python</exec_depend>
+  <exec_depend>cv_bridge</exec_depend>
+</package>
